@@ -45,9 +45,8 @@ sphinx-quickstart
 
 After running the command, accept the defaults. It’ll look something like this: 
 
-<p align="center">
-  <img width="1000" height="260" src="https://github.com/AmmarIqbal48/RT_2_Assignment_2_Documentation_Sphinx/blob/a6a18df3f75ab94ee6ec41f08c571f22ff91969b/image1.png">
-</p>
+![alt text] ![Screenshot from 2023-06-02 17-09-52](https://github.com/notMuizz/RT-02-Documentation-Using-Sphinx/assets/123844091/0cb52818-fa31-4bc9-9cbe-3e22541e7b0a)
+
 
 Figure above shows that *Separate source and build directories (y/n) [n]: n*. 
 
@@ -97,7 +96,7 @@ sudo apt-get install doxygen-gui
 
 Now, ***Doxygen GUI*** will open as shown in figure below:
 
-![alt text]![Screenshot from 2023-06-02 16-57-39](https://github.com/notMuizz/RT-02-Documentation-Using-Sphinx/assets/123844091/948f5abb-c18f-4003-97a5-d7d9ccbb7364)
+![alt text}![Screenshot from 2023-06-02 17-05-47](https://github.com/notMuizz/RT-02-Documentation-Using-Sphinx/assets/123844091/de8242b9-680f-4d42-b3b4-f50ecc528041)
 
 
 Now choose the ***working directory from which doxygen will run*** in *Step 1* as shown in figure above. After choosing the folder path, Provide some information about the project you are documenting such as: **Project Name, Project synopsis, Project version or id, Project logo** (if any), and so on. After giving the information , now ***specify the directory to scan for source code*** in *Step 2* which means add the source code directory. Mark the box for ***scan recursively***. After this, ***specify the directory where doxygen should put the generated doucmentation*** i.e. ***Destination directory*** as shown in the figure above. In our case, desination directory is *_build*. Save this as ***Doxygen.in***.
@@ -128,7 +127,8 @@ make html
 ```
 This command will create ***indext.html*** file which is in folder *_build/html*.
 
-![alt text](htmlpage.png)
+![alt text]![Screenshot from 2023-06-02 16-57-39](https://github.com/notMuizz/RT-02-Documentation-Using-Sphinx/assets/123844091/27c217bd-da77-4b88-93a3-b1ec9aa73e26)
+
 
 Figure above shows the *html page* of the documentation's created. 
 
