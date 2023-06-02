@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <compoundname>/home/muizz/RT_Assign_02-main/robot_r/src</compoundname>
+    <innerfile refid="client_8cpp">client.cpp</innerfile>
+    <innerfile refid="client__sub_8cpp">client_sub.cpp</innerfile>
+    <innerfile refid="info__counter_8cpp">info_counter.cpp</innerfile>
+    <innerfile refid="info__sub_8cpp">info_sub.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/muizz/RT_Assign_02-main/robot_r/src/"/>
+  </compounddef>
+</doxygen>
