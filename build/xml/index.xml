@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="namespaceconf" kind="namespace"><name>conf</name>
+    <member refid="conf_8py_1a332f430461432dc465213f884a1e4967" kind="variable"><name>shell</name></member>
+    <member refid="conf_8py_1a45653c983098153b78e33600e39230eb" kind="variable"><name>project</name></member>
+    <member refid="conf_8py_1a33fa97cf51dcb25970fbf53f10159589" kind="variable"><name>copyright</name></member>
+    <member refid="conf_8py_1a637c239d256432248aa8d9f3ab0b8c52" kind="variable"><name>author</name></member>
+    <member refid="conf_8py_1a325dc746d8bf05c54d26351c35a21d90" kind="variable"><name>release</name></member>
+    <member refid="conf_8py_1ae475e080536acb271a0a0efe56c3ba42" kind="variable"><name>extensions</name></member>
+    <member refid="conf_8py_1ae850ae634911b713e036b43894fdd525" kind="variable"><name>templates_path</name></member>
+    <member refid="conf_8py_1a7ad48fb6f3e9b129c02346ea0d3527c1" kind="variable"><name>exclude_patterns</name></member>
+    <member refid="conf_8py_1a3117edf4443d9b8c70a9f0f44294ba79" kind="variable"><name>highlight_language</name></member>
+    <member refid="conf_8py_1a10af2a769eb3bd3322e874f677e435b1" kind="variable"><name>source_suffix</name></member>
+    <member refid="conf_8py_1a6fcd7e5236f355b1e1a55f9d95988810" kind="variable"><name>master_doc</name></member>
+    <member refid="conf_8py_1a6c3bfcc1a44546c1c75ce20f55bd0fd6" kind="variable"><name>html_theme</name></member>
+    <member refid="conf_8py_1af4fb5d8851ccaade135c2668dd3ced41" kind="variable"><name>html_static_path</name></member>
+    <member refid="conf_8py_1acb47d2c0c2904fa7d36b63142533f383" kind="variable"><name>breathe_projects</name></member>
+    <member refid="conf_8py_1a6eba2d2c7ae923054b1c49e686ec89b9" kind="variable"><name>breathe_default_project</name></member>
+    <member refid="conf_8py_1a54585428ce84441199d9dfd7087e2243" kind="variable"><name>breathe_default_members</name></member>
+  </compound>
+  <compound refid="index_8rst_8txt" kind="file"><name>index.rst.txt</name>
+    <member refid="index_8rst_8txt_1abf4b1a5dd974ac1cafb316f5fb42fba3" kind="variable"><name>file</name></member>
+    <member refid="index_8rst_8txt_1a6f4c215f303f45226909dabdb3b73f23" kind="variable"><name>Jun</name></member>
+  </compound>
+  <compound refid="_c_make_lists_8txt" kind="file"><name>CMakeLists.txt</name>
+  </compound>
+  <compound refid="conf_8py" kind="file"><name>conf.py</name>
+  </compound>
+  <compound refid="client_8cpp" kind="file"><name>client.cpp</name>
+    <member refid="client_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="client__sub_8cpp" kind="file"><name>client_sub.cpp</name>
+    <member refid="client__sub_8cpp_1a4db2118b8c2f2b0e57723cb7753651d5" kind="variable"><name>msg1</name></member>
+    <member refid="client__sub_8cpp_1ad5fc08d91ba2b91155db98977c34f90c" kind="function"><name>Cbkodom</name></member>
+    <member refid="client__sub_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="info__counter_8cpp" kind="file"><name>info_counter.cpp</name>
+    <member refid="info__counter_8cpp_1a6e4ce36e622eb01432e2c50dc59d0c27" kind="variable"><name>counter_reach</name></member>
+    <member refid="info__counter_8cpp_1af20186488c086573476471d4b4399e8e" kind="variable"><name>counter_cancel</name></member>
+    <member refid="info__counter_8cpp_1a7d6f8a25e94209bd3ba29b2051ca4f08" kind="variable"><name>stat</name></member>
+    <member refid="info__counter_8cpp_1a258f1804016e36c51707502cb6e7f214" kind="function"><name>callback</name></member>
+    <member refid="info__counter_8cpp_1af7bf2ee215e420b854b54c0937362a01" kind="function"><name>call_count</name></member>
+    <member refid="info__counter_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="info__sub_8cpp" kind="file"><name>info_sub.cpp</name>
+    <member refid="info__sub_8cpp_1a87accd1af8e0aff4b818d891374f7cec" kind="variable"><name>t</name></member>
+    <member refid="info__sub_8cpp_1a42137762b612ae5e22ef10a314c4e990" kind="variable"><name>x_g</name></member>
+    <member refid="info__sub_8cpp_1a271fa005ff77309f8abfcdb05a509416" kind="variable"><name>y_g</name></member>
+    <member refid="info__sub_8cpp_1af88b946fb90d5f08b5fb740c70e98c10" kind="variable"><name>x</name></member>
+    <member refid="info__sub_8cpp_1ab927965981178aa1fba979a37168db2a" kind="variable"><name>y</name></member>
+    <member refid="info__sub_8cpp_1aa8871460ec99a8b52fd0a17c0f310823" kind="variable"><name>velocity_x</name></member>
+    <member refid="info__sub_8cpp_1a594207ce89c4e95abfbd7b95d00fed9a" kind="variable"><name>velocity_y</name></member>
+    <member refid="info__sub_8cpp_1a6fbb5115966edb3e6d0e5eb15ef2e089" kind="variable"><name>avg_velocity</name></member>
+    <member refid="info__sub_8cpp_1accf93555161c9eedf006462a228af523" kind="variable"><name>dist</name></member>
+    <member refid="info__sub_8cpp_1a96a3d653453ba9e70f67b568ad0a2756" kind="variable"><name>dist_left</name></member>
+    <member refid="info__sub_8cpp_1abbe7022aec9f48c2b326a4ea2ffe4b1d" kind="variable"><name>x_prev</name></member>
+    <member refid="info__sub_8cpp_1ae1e55c477a79cf61b44482ef6a84cf8d" kind="variable"><name>y_prev</name></member>
+    <member refid="info__sub_8cpp_1a6d875746321b630e34103d599c4d6a29" kind="variable"><name>x_in</name></member>
+    <member refid="info__sub_8cpp_1a64976365b9e50e72a5c9bdbb56972588" kind="variable"><name>y_in</name></member>
+    <member refid="info__sub_8cpp_1a986d6540a27a7892870133844eba0763" kind="function"><name>goalCbk</name></member>
+    <member refid="info__sub_8cpp_1a95865d15cf0b34f1835eac011e3c2e1e" kind="function"><name>posCbk</name></member>
+    <member refid="info__sub_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="dir_6ed6a7971cf8ccb35308a3edc0b67e3f" kind="dir"><name>/home/muizz/RT_Assign_02-main/robot_r/build/html/_sources</name>
+  </compound>
+  <compound refid="dir_4fef79e7177ba769987a8da36c892c5f" kind="dir"><name>/home/muizz/RT_Assign_02-main/robot_r/build</name>
+  </compound>
+  <compound refid="dir_ba386b0453ec91de46e36b83999df64c" kind="dir"><name>/home/muizz/RT_Assign_02-main/robot_r/build/html</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/home/muizz/RT_Assign_02-main/robot_r/src</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to RT_2 Assingment 1’s documentation! &mdash; RT_2 Assingment 1 1.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            RT_2 Assingment 1
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Welcome to RT_2 Assingment 1’s documentation!</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+<li><a class="reference internal" href="#client-module-in-cpp">Client Module in cpp</a></li>
+<li><a class="reference internal" href="#odometry-module-in-cpp">Odometry Module in cpp</a></li>
+<li><a class="reference internal" href="#info-counter-module-in-cpp">Info_counter Module in cpp</a></li>
+<li><a class="reference internal" href="#velocity-and-distance-module-in-cpp">Velocity and Distance Module in cpp</a></li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">RT_2 Assingment 1</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Welcome to RT_2 Assingment 1’s documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="welcome-to-rt-2-assingment-1-s-documentation">
+<h1>Welcome to RT_2 Assingment 1’s documentation!<a class="headerlink" href="#welcome-to-rt-2-assingment-1-s-documentation" title="Permalink to this heading"></a></h1>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading"></a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+<section id="client-module-in-cpp">
+<h1>Client Module in cpp<a class="headerlink" href="#client-module-in-cpp" title="Permalink to this heading"></a></h1>
+<p>
+Discription: This node creates a ROS client that interacts with an action server. It prompts the user to set a new goal or cancel an existing goal. It sends the goal to the action server and receives the status and result of the goal. The loop continues until the user stops the program. <dl class="simple">
+<dt><strong>Author</strong></dt><dd><p>Hafiz Muizz Ahmed Sethi </p>
+</dd>
+<dt><strong>Version</strong></dt><dd><p>0.1 </p>
+</dd>
+<dt><strong>Date</strong></dt><dd><p>30/05/2023</p>
+</dd>
+</dl>
+</p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-functions">Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv44mainiPPc">
+<span id="_CPPv34mainiPPc"></span><span id="_CPPv24mainiPPc"></span><span id="main__i.cPP"></span><span class="target" id="client_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">main</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">argc</span></span>, <span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">argv</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv44mainiPPc" title="Permalink to this definition"></a><br /></dt>
+<dd><p>Main function for the client node. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>argc</strong> – Number of command-line arguments. </p></li>
+<li><p><strong>argv</strong> – Array of command-line arguments. </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Integer representing the exit status. </p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+</section>
+<section id="odometry-module-in-cpp">
+<h1>Odometry Module in cpp<a class="headerlink" href="#odometry-module-in-cpp" title="Permalink to this heading"></a></h1>
+<p><p>Subcribes to :</p>
+<p>/odom</p>
+<dl class="simple">
+<dt><strong>Author</strong></dt><dd><p>Hafiz Muizz Ahmed Sethi </p>
+</dd>
+<dt><strong>Version</strong></dt><dd><p>0.1 </p>
+</dd>
+<dt><strong>Date</strong></dt><dd><p>30/05/2023</p>
+</dd>
+</dl>
+</p>
+<p><p>Publishes to :</p>
+<p>/pod_vel</p>
+</p>
+<p>Description: This code is a ROS node that subscribes to the “/odom” topic, which provides odometry information. When a new message is received, the callback function “Cbkodom” is triggered. Inside the callback function, the received position and velocity values are assigned to a custom message of type “robot_r::Vel”. The assigned values are then printed to the console using “ROS_INFO”. The code also publishes the custom message to the “/pod_vel” topic at a rate of 1 Hz. The loop continues as long as the ROS node is running. </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-functions">Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv47CbkodomRKN8nav_msgs8Odometry8ConstPtrE">
+<span id="_CPPv37CbkodomRKN8nav_msgs8Odometry8ConstPtrE"></span><span id="_CPPv27CbkodomRKN8nav_msgs8Odometry8ConstPtrE"></span><span id="Cbkodom__nav_msgs::Odometry::ConstPtrCR"></span><span class="target" id="client__sub_8cpp_1ad5fc08d91ba2b91155db98977c34f90c"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">Cbkodom</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">nav_msgs</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">Odometry</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">ConstPtr</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">msg</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv47CbkodomRKN8nav_msgs8Odometry8ConstPtrE" title="Permalink to this definition"></a><br /></dt>
+<dd><p>Callback function for the odom topic. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>msg</strong> – Pointer to the received Odometry message. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp">
+<span class="target" id="client__sub_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">main</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">argc</span></span>, <span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">argv</span></span><span class="sig-paren">)</span><br /></dt>
+<dd><p>Main function for the client_sub node. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>argc</strong> – Number of command-line arguments. </p></li>
+<li><p><strong>argv</strong> – Array of command-line arguments. </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Integer representing the exit status. </p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-variables">Variables</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv44msg1">
+<span id="_CPPv34msg1"></span><span id="_CPPv24msg1"></span><span id="msg1__robot_r::Vel"></span><span class="target" id="client__sub_8cpp_1a4db2118b8c2f2b0e57723cb7753651d5"></span><span class="n"><span class="pre">robot_r</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">Vel</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">msg1</span></span></span><a class="headerlink" href="#_CPPv44msg1" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</section>
+<section id="info-counter-module-in-cpp">
+<h1>Info_counter Module in cpp<a class="headerlink" href="#info-counter-module-in-cpp" title="Permalink to this heading"></a></h1>
+<p><p>Subscribes To:</p>
+<p>/reaching_goal/result</p>
+<dl class="simple">
+<dt><strong>Author</strong></dt><dd><p>Hafiz Muizz Ahmed Sethi </p>
+</dd>
+<dt><strong>Version</strong></dt><dd><p>0.1 </p>
+</dd>
+<dt><strong>Date</strong></dt><dd><p>30/05/2023</p>
+</dd>
+</dl>
+</p>
+<p><p>Services To:</p>
+<p>/info_counter</p>
+</p>
+<p>Description: This code is a ROS node that keeps track of the number of reached and canceled goals. It subscribes to the “/reaching_goal/result” topic to receive status messages and updates the counters accordingly. It also provides a service “/info_counter” to retrieve the current counts of reached and canceled goals. </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-functions">Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv48callbackRKN17assignment_2_202220PlanningActionResult8ConstPtrE">
+<span id="_CPPv38callbackRKN17assignment_2_202220PlanningActionResult8ConstPtrE"></span><span id="_CPPv28callbackRKN17assignment_2_202220PlanningActionResult8ConstPtrE"></span><span id="callback__assignment_2_2022::PlanningActionResult::ConstPtrCR"></span><span class="target" id="info__counter_8cpp_1a258f1804016e36c51707502cb6e7f214"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">callback</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">assignment_2_2022</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">PlanningActionResult</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">ConstPtr</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">msg</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv48callbackRKN17assignment_2_202220PlanningActionResult8ConstPtrE" title="Permalink to this definition"></a><br /></dt>
+<dd><p>Callback function for the /reaching_goal/result topic. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>msg</strong> – Pointer to the received PlanningActionResult message. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv410call_countRN7robot_r7Counter7RequestERN7robot_r7Counter8ResponseE">
+<span id="_CPPv310call_countRN7robot_r7Counter7RequestERN7robot_r7Counter8ResponseE"></span><span id="_CPPv210call_countRN7robot_r7Counter7RequestERN7robot_r7Counter8ResponseE"></span><span id="call_count__robot_r::Counter::RequestR.robot_r::Counter::ResponseR"></span><span class="target" id="info__counter_8cpp_1af7bf2ee215e420b854b54c0937362a01"></span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">call_count</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">robot_r</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">Counter</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">Request</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">req</span></span>, <span class="n"><span class="pre">robot_r</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">Counter</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">Response</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">res</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv410call_countRN7robot_r7Counter7RequestERN7robot_r7Counter8ResponseE" title="Permalink to this definition"></a><br /></dt>
+<dd><p>Service callback function to set values of the /info_counter topic. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>req</strong> – Request object for the Counter service. </p></li>
+<li><p><strong>res</strong> – Response object for the Counter service. </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>True if the service call was successful, false otherwise. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp">
+<span class="target" id="info__counter_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">main</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">argc</span></span>, <span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">argv</span></span><span class="sig-paren">)</span><br /></dt>
+<dd><p>Main function for the info_counter node. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>argc</strong> – Number of command-line arguments. </p></li>
+<li><p><strong>argv</strong> – Array of command-line arguments. </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Integer representing the exit status. </p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-variables">Variables</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv413counter_reach">
+<span id="_CPPv313counter_reach"></span><span id="_CPPv213counter_reach"></span><span id="counter_reach__i"></span><span class="target" id="info__counter_8cpp_1a6e4ce36e622eb01432e2c50dc59d0c27"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">counter_reach</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv413counter_reach" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv414counter_cancel">
+<span id="_CPPv314counter_cancel"></span><span id="_CPPv214counter_cancel"></span><span id="counter_cancel__i"></span><span class="target" id="info__counter_8cpp_1af20186488c086573476471d4b4399e8e"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">counter_cancel</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv414counter_cancel" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv44stat">
+<span id="_CPPv34stat"></span><span id="_CPPv24stat"></span><span id="stat__i"></span><span class="target" id="info__counter_8cpp_1a7d6f8a25e94209bd3ba29b2051ca4f08"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">stat</span></span></span><a class="headerlink" href="#_CPPv44stat" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</section>
+<section id="velocity-and-distance-module-in-cpp">
+<h1>Velocity and Distance Module in cpp<a class="headerlink" href="#velocity-and-distance-module-in-cpp" title="Permalink to this heading"></a></h1>
+<p><p>Subscribe To :</p>
+<p>reaching_goal/goal /pod_vel</p>
+<dl class="simple">
+<dt><strong>Author</strong></dt><dd><p>Hafiz Muizz Ahmed Sethi </p>
+</dd>
+<dt><strong>Version</strong></dt><dd><p>0.1 </p>
+</dd>
+<dt><strong>Date</strong></dt><dd><p>30/05/2023</p>
+</dd>
+</dl>
+</p>
+<p>Description: This code is a ROS node that subscribes to two topics: “/reaching_goal/goal” and “/pod_vel”. It extracts the target position from messages received on the “/reaching_goal/goal” topic and calculates the average velocity and remaining distance based on position and velocity information received on the “/pod_vel” topic. The node continuously updates and prints these values as new messages are received. </p>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-functions">Functions</p>
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv47goalCbkRKN17assignment_2_202218PlanningActionGoal8ConstPtrE">
+<span id="_CPPv37goalCbkRKN17assignment_2_202218PlanningActionGoal8ConstPtrE"></span><span id="_CPPv27goalCbkRKN17assignment_2_202218PlanningActionGoal8ConstPtrE"></span><span id="goalCbk__assignment_2_2022::PlanningActionGoal::ConstPtrCR"></span><span class="target" id="info__sub_8cpp_1a986d6540a27a7892870133844eba0763"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">goalCbk</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">assignment_2_2022</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">PlanningActionGoal</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">ConstPtr</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">msg</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv47goalCbkRKN17assignment_2_202218PlanningActionGoal8ConstPtrE" title="Permalink to this definition"></a><br /></dt>
+<dd><p>Callback function for the subscriber to the /reaching_goal/goal topic. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>msg</strong> – Pointer to the received PlanningActionGoal message. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp" id="_CPPv46posCbkRKN7robot_r3Vel8ConstPtrE">
+<span id="_CPPv36posCbkRKN7robot_r3Vel8ConstPtrE"></span><span id="_CPPv26posCbkRKN7robot_r3Vel8ConstPtrE"></span><span id="posCbk__robot_r::Vel::ConstPtrCR"></span><span class="target" id="info__sub_8cpp_1a95865d15cf0b34f1835eac011e3c2e1e"></span><span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">posCbk</span></span></span><span class="sig-paren">(</span><span class="k"><span class="pre">const</span></span><span class="w"> </span><span class="n"><span class="pre">robot_r</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">Vel</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">ConstPtr</span></span><span class="w"> </span><span class="p"><span class="pre">&amp;</span></span><span class="n sig-param"><span class="pre">msg1</span></span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv46posCbkRKN7robot_r3Vel8ConstPtrE" title="Permalink to this definition"></a><br /></dt>
+<dd><p>Callback function for the subscriber to the /pod_vel topic. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>msg1</strong> – Pointer to the received Vel message. </p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="cpp function">
+<dt class="sig sig-object cpp">
+<span class="target" id="info__sub_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627"></span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">main</span></span></span><span class="sig-paren">(</span><span class="kt"><span class="pre">int</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">argc</span></span>, <span class="kt"><span class="pre">char</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">argv</span></span><span class="sig-paren">)</span><br /></dt>
+<dd><p>Main function for the info_sub node. </p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>argc</strong> – Number of command-line arguments. </p></li>
+<li><p><strong>argv</strong> – Array of command-line arguments. </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Integer representing the exit status. </p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-variables">Variables</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv41t">
+<span id="_CPPv31t"></span><span id="_CPPv21t"></span><span id="t__double"></span><span class="target" id="info__sub_8cpp_1a87accd1af8e0aff4b818d891374f7cec"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">t</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0.0</span></span><a class="headerlink" href="#_CPPv41t" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv43x_g">
+<span id="_CPPv33x_g"></span><span id="_CPPv23x_g"></span><span id="x_g__double"></span><span class="target" id="info__sub_8cpp_1a42137762b612ae5e22ef10a314c4e990"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">x_g</span></span></span><a class="headerlink" href="#_CPPv43x_g" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv43y_g">
+<span id="_CPPv33y_g"></span><span id="_CPPv23y_g"></span><span id="y_g__double"></span><span class="target" id="info__sub_8cpp_1a271fa005ff77309f8abfcdb05a509416"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">y_g</span></span></span><a class="headerlink" href="#_CPPv43y_g" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv41x">
+<span id="_CPPv31x"></span><span id="_CPPv21x"></span><span id="x__double"></span><span class="target" id="info__sub_8cpp_1af88b946fb90d5f08b5fb740c70e98c10"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">x</span></span></span><a class="headerlink" href="#_CPPv41x" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv41y">
+<span id="_CPPv31y"></span><span id="_CPPv21y"></span><span id="y__double"></span><span class="target" id="info__sub_8cpp_1ab927965981178aa1fba979a37168db2a"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">y</span></span></span><a class="headerlink" href="#_CPPv41y" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv410velocity_x">
+<span id="_CPPv310velocity_x"></span><span id="_CPPv210velocity_x"></span><span id="velocity_x__double"></span><span class="target" id="info__sub_8cpp_1aa8871460ec99a8b52fd0a17c0f310823"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">velocity_x</span></span></span><a class="headerlink" href="#_CPPv410velocity_x" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv410velocity_y">
+<span id="_CPPv310velocity_y"></span><span id="_CPPv210velocity_y"></span><span id="velocity_y__double"></span><span class="target" id="info__sub_8cpp_1a594207ce89c4e95abfbd7b95d00fed9a"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">velocity_y</span></span></span><a class="headerlink" href="#_CPPv410velocity_y" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv412avg_velocity">
+<span id="_CPPv312avg_velocity"></span><span id="_CPPv212avg_velocity"></span><span id="avg_velocity__double"></span><span class="target" id="info__sub_8cpp_1a6fbb5115966edb3e6d0e5eb15ef2e089"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">avg_velocity</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv412avg_velocity" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv44dist">
+<span id="_CPPv34dist"></span><span id="_CPPv24dist"></span><span id="dist__double"></span><span class="target" id="info__sub_8cpp_1accf93555161c9eedf006462a228af523"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dist</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv44dist" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv49dist_left">
+<span id="_CPPv39dist_left"></span><span id="_CPPv29dist_left"></span><span id="dist_left__double"></span><span class="target" id="info__sub_8cpp_1a96a3d653453ba9e70f67b568ad0a2756"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">dist_left</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0</span></span><a class="headerlink" href="#_CPPv49dist_left" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv46x_prev">
+<span id="_CPPv36x_prev"></span><span id="_CPPv26x_prev"></span><span id="x_prev__double"></span><span class="target" id="info__sub_8cpp_1abbe7022aec9f48c2b326a4ea2ffe4b1d"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">x_prev</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0.0</span></span><a class="headerlink" href="#_CPPv46x_prev" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv46y_prev">
+<span id="_CPPv36y_prev"></span><span id="_CPPv26y_prev"></span><span id="y_prev__double"></span><span class="target" id="info__sub_8cpp_1ae1e55c477a79cf61b44482ef6a84cf8d"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">y_prev</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="m"><span class="pre">0.0</span></span><a class="headerlink" href="#_CPPv46y_prev" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv44x_in">
+<span id="_CPPv34x_in"></span><span id="_CPPv24x_in"></span><span id="x_in__double"></span><span class="target" id="info__sub_8cpp_1a6d875746321b630e34103d599c4d6a29"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">x_in</span></span></span><a class="headerlink" href="#_CPPv44x_in" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv44y_in">
+<span id="_CPPv34y_in"></span><span id="_CPPv24y_in"></span><span id="y_in__double"></span><span class="target" id="info__sub_8cpp_1a64976365b9e50e72a5c9bdbb56972588"></span><span class="kt"><span class="pre">double</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">y_in</span></span></span><a class="headerlink" href="#_CPPv44y_in" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Hafiz Muizz Ahmed Sethi.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
