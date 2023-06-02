@@ -157,5 +157,3 @@ the sphinx layout).
 To view the documentation visit the link given below: 
 
  https://notmuizz.github.io/RT-02-Documentation-Using-Sphinx/
-
-This the *url* for the Sphinx Documentaion of the Software Architecture for Mobile Robot Control. 
